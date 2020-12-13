@@ -1,0 +1,69 @@
+#process {
+    padding-top: 5rem;
+}
+.bb {
+   
+    position: relative;
+}
+
+.left-images {
+  
+    display: none;
+    z-index: -1;
+    
+    .pic1 {
+        position: absolute;
+        left: -520px;
+        top: -100px;
+    }
+    .pic2 {
+        position: absolute;
+        top: 100px;
+        left: -150px;
+    }
+    @media (min-width: 992px) {display: block;}
+       
+}
+.right-text {
+  
+    text-align: center;
+
+    .tit {
+        font-family: $font3;
+        padding-bottom: 80px;
+       
+        font-weight: 700;
+        font-size: 48px; 
+    }
+    .group {
+        justify-content: space-between;
+        padding-bottom: 30px;
+      
+        .nubmer {
+            font-family: $font3;
+            color: $pink; 
+            font-size: 60px;
+            padding-right: 60px;
+        }
+        .txt {
+            padding-top: 20px;
+
+            h3 {
+                font-family: $font3;
+                font-size: 24px;
+                padding-bottom: 45px;
+            }
+
+            p {
+                font-family: $font1;
+                font-size: 18px;
+                color: $gray;
+
+            }
+        }
+
+       
+    }
+   @media (min-width: 992px) { padding-left: 100px;  width: 470px;
+    text-align: left;}
+}

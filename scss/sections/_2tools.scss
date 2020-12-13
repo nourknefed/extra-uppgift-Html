@@ -1,0 +1,41 @@
+#tools{
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+ 
+
+}
+.dis {
+    align-content: center;
+    
+    @media (min-width: 992px) { display: flex;}
+}
+.tool-left{
+  
+    .p1 {
+    width: 100%;
+    }
+
+    @media (min-width: 992px) {  margin-right: 3rem;
+    padding-right: 1rem;}
+
+}
+     
+.tools-right {
+
+    align-content: center;
+    position: relative;
+    top: 95px;
+    text-align: center;
+    h2 {
+        font-family: $font3 ;
+        font-size: 22px;
+        padding: 1rem 0;
+
+    }
+    p {
+        font-family: $font1;
+        font-size: 18px;
+        color: $gray;
+    } 
+    @media (min-width: 992px) {text-align: left;} 
+}

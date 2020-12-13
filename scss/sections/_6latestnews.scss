@@ -1,0 +1,96 @@
+#latest-news {
+    margin-top: 400px;
+}
+
+.title {
+    justify-content: center;
+    text-align: center;
+   
+    h1 {
+        font-family: $font3;
+        font-size: 48px;
+        font-weight: 700;
+   
+    }
+    p {
+        font-family: $font1;
+        color: $gray;
+        font-size: 18px;
+        margin: 20px 0px;
+    }
+     @media (min-width :992px) { margin: 25px 250px;}
+
+}
+
+.groups {
+    text-align: center;
+    margin: 50px 25px;
+    padding: 0;
+    text-align: left;
+    justify-content: center;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.08);  
+    .box {
+        height: 250px;
+        background-color: #414149;
+    }
+    .text {
+        padding: 25px 20px;
+
+
+        .date {
+            color: $orange;
+            font-family: $font3;
+            font-size: 14px;
+           
+        }
+        h3 {
+            font-family: $font3;
+            font-size: 22px;
+            font-weight: 700;
+        }
+        p {
+            font-family: $font1;
+            color: $gray;
+        }
+        .btn2 {
+            
+            font-family: $font1;
+            font-size: 14px;
+            background: $gradient;
+            border: transparent;
+            color: $white;
+            padding: 0.8rem 1rem;
+            border-radius: 0.5rem;
+        }
+
+    }
+    
+}
+.get-start {
+    margin: 0px 0px;
+    padding: 2rem 2rem;
+    justify-content: space-between;
+    
+    align-items: center;
+
+    h2 {
+        font-family: $font3;
+        font-size: 30px;
+        text-align: center;
+        padding-bottom: 1rem;
+        
+        @media (min-width :992px) {width: 70%;}
+    }
+    .btn {
+        font-family: $font1;
+        color: $white;
+        font-size: 16px;
+        font-weight: 700;
+        background: $gradient-1;
+        padding: 1rem 2rem;
+      
+    }
+    @media (min-width :992px) {display: flex; background: $gradient; color: $white; margin: 50px 65px; }
+
+
+}

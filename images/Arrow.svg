@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="140" height="53" viewBox="0 0 140 53">
+  <g id="Arrow" transform="translate(-1245 -4491)">
+    <g id="Forward">
+      <rect id="Shape" width="70" height="53" transform="translate(1315 4491)" fill="#ffc097"/>
+      <g id="Icon" transform="translate(1410.149 4527.86) rotate(180)">
+        <path id="Chevron_Right" d="M54.433,11.711l9.83,9.827a1.1,1.1,0,1,0,1.563-1.559l-9.05-9.047,9.049-9.047A1.1,1.1,0,0,0,64.262.324l-9.83,9.827A1.114,1.114,0,0,0,54.433,11.711Z" transform="translate(0)" fill="#fff"/>
+      </g>
+    </g>
+    <g id="Back">
+      <rect id="Shape-2" data-name="Shape" width="70" height="53" transform="translate(1245 4491)" fill="#e9eaf1"/>
+      <g id="Icon-2" data-name="Icon" transform="translate(1219.887 4505.999)">
+        <path id="Chevron_Right-2" data-name="Chevron_Right" d="M54.433,11.711l9.83,9.827a1.1,1.1,0,1,0,1.563-1.559l-9.05-9.047,9.049-9.047A1.1,1.1,0,0,0,64.262.324l-9.83,9.827A1.114,1.114,0,0,0,54.433,11.711Z" transform="translate(0)" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>
